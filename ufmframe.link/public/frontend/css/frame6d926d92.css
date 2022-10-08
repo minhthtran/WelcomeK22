@@ -1,0 +1,217 @@
+/* ================================================
+Designed by Lê Huỳnh Trung Hậu
+Email: haulht@outlook.com
+================================================ */
+
+.cropit-image-preview, .cropit-preview {
+    background-color: #f8f8f8;
+    background-size: cover;
+    /*width: 650px;*/
+    /*height: 650px;*/
+    cursor: move;
+}
+
+.cropit-image-background {
+    opacity: .2;
+    cursor: auto;
+}
+
+.image-size-label {
+    margin-top: 5px;
+    font-weight: bold;
+    float: left;
+    width: 140px;
+}
+
+input {
+    display: block;
+}
+
+.export{
+    margin-top: 5px;
+}
+
+#leCanvas{
+    position: absolute;
+    top:0;
+    cursor: pointer;
+}
+
+#leCanvas2{
+    position: absolute;
+    top:0;
+    cursor: pointer;
+}
+
+
+.column{
+    float: left;
+}
+
+.column:nth-child(1){
+    width: 660px;
+    padding-right: 20px;
+}
+
+.column:nth-child(2){
+    width: 300px;
+    margin-top: 30px;
+}
+h1{
+    font: 20px Arial;
+    font-weight: bold;
+    color: #376db5;
+    /*border: 1px solid;*/
+    text-align: center;
+    padding: 8px 0;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.cropit-image-input{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+}
+.change-frame{
+    margin-top: 10px;
+    font: 16px Arial;
+    background: #6fc752;
+    color: #fff;
+    padding: 5px 0px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px #59aa37;
+    box-shadow: 0 2px #59aa37;
+    border: none;
+}
+.select-image-btn{
+    float: right;
+}
+
+.export, #dl, .download{
+    font-size: 16px;
+    border: none;
+    background: #cf754f;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-box-shadow: 0 2px #b45831;
+    box-shadow: 0 2px #b45831;
+}
+.download{
+    background: #cf4fa8;
+    -webkit-box-shadow: 0 2px #b4316d;
+    box-shadow: 0 2px #b4316d;
+    margin-top: 30px;
+}
+.label-download-or-export{
+    display: block;
+    margin-top: 10px;
+}
+#dl{
+    background: #2FB163;
+}
+
+.note{
+    font: 16px Arial;
+    margin-top: 15px;
+    margin-bottom: 0;
+    line-height: 20px;
+    white-space: pre-wrap;
+}
+
+#rotate_left, #rotate_right{
+    padding: 7px 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+.label-rotate{
+    float: left;
+    line-height: 20px;
+    margin-top: 18px;
+}
+#controls{
+    display: inline-block;
+    margin-left: 15px;
+}
+.checkbox input{
+    float: left;
+}
+.move_logo{
+    margin-top: 10px;
+}
+.footer{
+    padding-top: 15px;
+    width: 990px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+#stateCombo{
+    font: 16px Arial;
+}
+#upload_background{
+    display: none;
+}
+.area_frame{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    box-shadow: 0 0 30px #000000;
+}
+.license{
+    font: 9px Arial;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+button:focus{
+    outline: none;
+}
+input.photo-zoom-input{
+    width: 140px;
+    margin-left: 15px;
+    float: left;
+    margin-top: 8px;
+}
+.image-editor{
+    width: 100%;
+    display: inline-block;
+    background: #f3e4c8;
+    padding-top: 30px;
+    margin-top: 15px;
+    box-shadow: 8px 9px 0 0 rgba(0, 0, 0, 0.1);
+    border: 4px #E34517 dashed;
+}
+.choose-extra-frame{
+    width: 140px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.area-choose-extra-frame img{
+    width: 100%;
+    box-shadow: 0 0 10px #000000;
+}
+.area-choose-extra-frame .item{
+    margin: 10px;
+    cursor: pointer;
+}

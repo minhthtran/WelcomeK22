@@ -1,0 +1,28 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 12 Sep 2021 20:33:08 at http://ufmframe.link/?fbclid=IwAR2xLT7q-zxL8Z66joPz-VeQnT1cE3YC3zDsfs2n1LKm8m7qbo1U8-VWfSo +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://ufmframe.link/?fbclid=IwAR2xLT7q-zxL8Z66joPz-VeQnT1cE3YC3zDsfs2n1LKm8m7qbo1U8-VWfSo -O1 "D:\FontEnd\UFM\ufm" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:33:45	Warning: 	Retry after error -4 (Incorrect length (229404 Bytes, 535370 expected)) at link ufmframe.link/Scripts/html2canvas.svg.js (from ufmframe.link/?fbclid=IwAR2xLT7q-zxL8Z66joPz-VeQnT1cE3YC3zDsfs2n1LKm8m7qbo1U8-VWfSo)
+20:33:48	Error: 	"Not Found" (404) at link ufmframe.link/connect.facebook.net/vi_VN/all.js (from ufmframe.link/?fbclid=IwAR2xLT7q-zxL8Z66joPz-VeQnT1cE3YC3zDsfs2n1LKm8m7qbo1U8-VWfSo)
+20:33:48	Error: 	"Not Found" (404) at link ufmframe.link/www.google-analytics.com/analytics.js (from ufmframe.link/?fbclid=IwAR2xLT7q-zxL8Z66joPz-VeQnT1cE3YC3zDsfs2n1LKm8m7qbo1U8-VWfSo)
+20:34:02	Warning: 	Retry after error -4 (Incorrect length (250033 Bytes, 382867 expected)) at link ufmframe.link/upload/tansinhvien.png (from ufmframe.link/?fbclid=IwAR2xLT7q-zxL8Z66joPz-VeQnT1cE3YC3zDsfs2n1LKm8m7qbo1U8-VWfSo)
+20:34:04	Warning: 	Retry after error -4 (Incorrect length (255630 Bytes, 649006 expected)) at link ufmframe.link/upload/chibi.jpg (from ufmframe.link/?fbclid=IwAR2xLT7q-zxL8Z66joPz-VeQnT1cE3YC3zDsfs2n1LKm8m7qbo1U8-VWfSo)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/fontawesome-webfont.eot?v=4.3.0 (from ufmframe.link/public/css/font-awesome.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/fontawesome-webfont.eot? (from ufmframe.link/public/css/font-awesome.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/fontawesome-webfont.woff2?v=4.3.0 (from ufmframe.link/public/css/font-awesome.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/fontawesome-webfont.woff?v=4.3.0 (from ufmframe.link/public/css/font-awesome.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/fontawesome-webfont.ttf?v=4.3.0 (from ufmframe.link/public/css/font-awesome.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/glyphicons-halflings-regular.eot (from ufmframe.link/public/css/bootstrap.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/glyphicons-halflings-regular.eot? (from ufmframe.link/public/css/bootstrap.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/glyphicons-halflings-regular.woff2 (from ufmframe.link/public/css/bootstrap.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/glyphicons-halflings-regular.woff (from ufmframe.link/public/css/bootstrap.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/glyphicons-halflings-regular.ttf (from ufmframe.link/public/css/bootstrap.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/fonts/glyphicons-halflings-regular.svg (from ufmframe.link/public/css/bootstrap.min.css)
+20:34:21	Error: 	"Not Found" (404) at link ufmframe.link/public/img/waiting.gif (from ufmframe.link/public/frontend/css/style6d92.css?1497267268)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 23 seconds : 36 links scanned, 18 files written (2162612 bytes overall) [2171889 bytes received at 26167 bytes/sec], 7714 bytes transferred using HTTP compression in 1 files, ratio 32%, 2.5 requests per connection
+(14 errors, 3 warnings, 0 messages)
